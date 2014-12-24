@@ -4,7 +4,7 @@ Plugin Name: Stop Pinging Yourself for WordPress
 Plugin URI: http://thisismyurl.com/downloads/stop-pinging-yourself-for-wordpress/
 Description: Stops a WordPress blog from pinging itself with pingbacks
 Author: christopherross
-Version: 15.01
+Version: 15.01.01
 Author URI: http://thisismyurl.com/
 */
 
@@ -74,7 +74,7 @@ class thissimyurl_StopPingingYourself extends thisismyurl_Common_SPYFW {
 	}
 	
 	
-	function thisismyurl_no_self_ping( $links ) {
+	function no_self_ping( $links ) {
 	
 		foreach ( $links as $link_count => $link ) {
 	

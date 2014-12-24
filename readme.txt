@@ -1,11 +1,11 @@
-=== Plugin Name ===
+=== Stop Pinging Yourself ===
 Contributors: christopherross,thisismyurl
 Plugin URI: http://thisismyurl.com/downloads/stop-pinging-yourself-for-wordpress/
 Tags: wordpress, pingback
 Donate link: http://thisismyurl.com/downloads/
-Requires at least: 3.0.0
-Tested up to: 4.0.1
-Stable tag: 14.11
+Requires at least: 3.2.0
+Tested up to: 4.1.0
+Stable tag: 15.01.01
 
 Stops a WordPress blog from pinging itself with pingbacks
 
